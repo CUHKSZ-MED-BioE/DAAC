@@ -1,8 +1,11 @@
+
+
 # DAAC: Discrepancy-Aware Adaptive Contrastive Learning for Medical Time series(Neurips 2025)
 
 <p align="center">
-  <img src="assets/logo3.png" width="200" alt="Demo image">
+  <img src="assets/logo3.png" width="80" alt="logo">
 </p>
+
 
 #### Authors: 
 #### [Yifan Wang*](https://webpages.charlotte.edu/ywang145/)(yifanwang13@link.cuhk.edu.cn), [Hongfeng Ai*]()(aihongfeng@cuhk.edu.cn)
