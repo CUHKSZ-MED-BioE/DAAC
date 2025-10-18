@@ -1,6 +1,6 @@
 
 
-# DAAC: Discrepancy-Aware Adaptive Contrastive Learning for Medical Time series(Neurips 2025)
+# DAAC: Discrepancy-Aware Adaptive Contrastive Learning for Medical Time series(NeurIPS 2025)
 
 <p align="center">
   <img src="assets/logo3.png" width="80" alt="logo">
