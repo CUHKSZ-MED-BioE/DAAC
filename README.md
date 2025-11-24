@@ -17,7 +17,13 @@
 DAAC is a framework for medical time-series diagnosis that combines a GAN-enhanced discrepancy estimator with an adaptive multi-view contrastive learner. It leverages external normal data to compute reconstruction-error features and uses multi-head attention with hierarchical contrastive losses to learn robust, generalizable representations, achieving state-of-the-art results even with limited labeled data across multiple clinical EEG/ECG datasets.
 
 ## Datasets
+### AD (Target EEG Dataset)
 
+The AD dataset consists of resting-state EEG recordings from 22 subjects, including 11 patients diagnosed with probable Alzheimer’s disease and 11 healthy controls. EEG was recorded at the University Hospital of Valladolid (Spain) using 19 electrodes under the 10–20 system at 256 Hz; each subject contributed over 5 minutes of eyes-closed data, which was segmented into 5-second trials over 16 channels and then further divided into overlapping 1-second epochs for model training.
+
+### ADFD (External  EEG Dataset)
+
+The ADFD dataset is a public multi-group EEG dataset including 36 Alzheimer’s disease (AD) patients, 23 frontotemporal dementia (FTD) patients, and 29 healthy controls (HC). Recordings were acquired with 19 channels at 500 Hz, bandpass filtered to 0.5–45 Hz, downsampled to 256 Hz, and segmented into non-overlapping 1-second windows using 16 overlapping channels, resulting in 69,752 1-second EEG segments that serve as external data in DAAC.
 
 ### Preprocessing
 (1) AD:(link) ineternal dataset: (https://drive.google.com/drive/folders/1BdlZG9mKQCcAI5zM3JLbzF0nib0X0IRU?dmr=1&ec=wgc-drive-globalnav-goto)
